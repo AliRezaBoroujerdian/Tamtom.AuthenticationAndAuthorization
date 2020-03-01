@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text;
+
+namespace Tamtom.AuthenticationAndAuthorization.Authentication.Models
+{
+    public class LoginModel
+    {
+        [Required]
+        [StringLength(100, MinimumLength = 10)]
+        public string Username { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [StringLength(100, MinimumLength = 5)]
+        public string Password { get; set; }
+
+        [Required]
+        public string Platform { get; set; }
+
+        public string OS { get; set; }
+
+        public string Model { get; set; }
+
+        public string Browser { get; set; }
+
+        public string Version { get; set; }
+
+        public string IP { get; set; }
+    }
+}
