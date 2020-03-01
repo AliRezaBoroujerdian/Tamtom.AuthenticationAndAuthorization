@@ -21,7 +21,7 @@ namespace Tamtom.AuthenticationAndAuthorization.Google
             SecretKey = secretkey;
         }
 
-        public async Task<GoogleRecaptcha3VerifyResponseModel> VerifyGoogleToken(string googleToken)
+        public static async Task<GoogleRecaptcha3VerifyResponseModel> VerifyGoogleToken(string googleToken)
         {
             using (var client = new HttpClient())
             {

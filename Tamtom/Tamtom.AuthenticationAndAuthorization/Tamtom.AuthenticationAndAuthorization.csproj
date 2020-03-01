@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.1.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>Rectangle 1 copy 11.png</PackageIcon>
+    <PackageIconUrl />
+    <Authors>AliRezaBoroujerdian</Authors>
+    <Company>Tamtom</Company>
+    <Description>Authentication and Authorization full package</Description>
+    <Copyright>2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/AliRezaBoroujerdian/Tamtom.AuthenticationAndAuthorization</PackageProjectUrl>
+    <PackageTags>Authentication, Authorization, Tamtom, AliRezaBoroujerdian</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +22,13 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Tamtom.Database" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\Tamtom\Design\logo\20190612\Rectangle 1 copy 11.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

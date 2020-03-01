@@ -23,8 +23,6 @@ namespace Tamtom.AuthenticationAndAuthorization.Authentication.Models
 
         public string Model { get; set; }
 
-        public string Browser { get; set; }
-
         public string Version { get; set; }
 
         public string IP { get; set; }
