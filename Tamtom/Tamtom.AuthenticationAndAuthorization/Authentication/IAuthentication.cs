@@ -8,6 +8,9 @@ namespace Tamtom.AuthenticationAndAuthorization.Authentication
 {
     public interface IAuthentication
     {
-        Task<LoginResultModel> Login(LoginModel model);
+        Task<DirectRegisterResultModel> DirectRegister(DirectRegisterModel model);
+
+        //Task<LoginResultModel> Login(LoginModel model);
+        //Task<LoginResultModel> User(LoginModel model);
     }
 }
